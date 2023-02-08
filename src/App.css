@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  padding-bottom: 2rem;
+  height: 100vh;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  margin:2rem 5rem;
+}
+.content{
+  background-color: #fff;
+  margin:2rem;
+  box-shadow: 0px 0px 20px 7px rgba(108, 104, 104, 0.4);
+  border-radius: 10px;
+  padding:1rem 3rem;
+  width: 100px;
+  height: 150px;
+}
+
+img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  margin-bottom: -20px;
+}
+a{
+  text-decoration: none;
+  color: rgba(108, 104, 104, 0.6);
+}
+a:hover{
+  color: rgba(108, 104, 104, 0.9);
+}
+.page-btn{
+  background-color: rgb(52, 154, 237);
+  border: none;
+  color:#000;
+  margin:5px;
+}
+.active{
+  background-color:#094581;
+  color: #fff;
+}
+h4{
+  margin-bottom: 10px;
+}
